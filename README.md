@@ -3,3 +3,16 @@
 
 Demo有详细调用说明
 
+#gradle
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+  
+#引用
+  dependencies {
+	        implementation 'com.github.jsir1989:JLauncher:1.0.0'
+	}
+
