@@ -14,7 +14,6 @@ allprojects {
   
 #引用
 
-  dependencies {
-	        implementation 'com.github.jsir1989:JLauncher:1.0.0'
-	}
+implementation 'com.github.jsir1989:JLauncher:1.0.0'
+	
 
