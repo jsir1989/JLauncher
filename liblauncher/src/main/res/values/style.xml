@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="StyleSpringboard">
+        <item name="row_count">6</item>
+        <item name="column_count">4</item>
+        <item name="divider_width">1dp</item>
+        <item name="divider_color">#00000000</item>
+        <item name="default_folder_name">@string/folder_name</item>
+        <item name="folder_dialog_background">#f5222222</item>
+        <item name="folder_view_background">@drawable/folder_background</item>
+        <item name="folder_row_count">3</item>
+        <item name="folder_column_count">3</item>
+        <item name="is_last_item_stable">false</item>
+        <item name="stable_header_count">0</item>
+        <item name="folder_edit_text_color">@android:color/white</item>
+        <item name="folder_edit_text_size">18sp</item>
+        <item name="page_divider_width">2dp</item>
+    </style>
+
+</resources>

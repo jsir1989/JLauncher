@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.jsir.launcher.widget.MenuView
+        android:id="@+id/mv_board"
+        style="@style/StyleSpringboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:column_count="4"
+        app:row_count="6" />
+
+</LinearLayout>
